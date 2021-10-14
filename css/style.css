@@ -16,6 +16,7 @@ main{
 footer{
     height: 80px;
     background-color: chartreuse;
+    position: relative;
 }
 .header{
     width:100%;
@@ -95,4 +96,34 @@ footer{
     left: 0;
     padding: 5px;
     background-color: rgba(0,0,0,0.6);
+}
+
+.left {
+    display: flex;
+    align-items: center; 
+    font-size: 30px;   
+}
+.left .chevron-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.left .chevron-box i{
+    margin-left: 18px;
+}
+
+.center .chevron-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center .chevron-center i{
+    margin-left: 18px;
+}
+
+.center {
+    display: flex;
+    align-items: center; 
+    font-size: 30px;   
+    margin-left: 425px;
 }
